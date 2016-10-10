@@ -26,13 +26,13 @@ define('DB_NAME', 'target_opentext_training');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'Target@1234');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
@@ -63,7 +63,7 @@ define('NONCE_SALT',       'BRL_1!^&cSVFy#7VCVb4gT;kukUK}8!5EuU<+Aa-[A*=X2GH:4/K
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'ot_';
+$table_prefix  = 'tg_';
 
 /**
  * For developers: WordPress debugging mode.
